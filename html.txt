@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the beautiful Gheralta attractions with our guided tours. Discover history, nature, and culture.">
+    <title>Gheralta Attractions Tour and Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Gheralta Attractions Tour and Travel</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#attractions">Attractions</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Gheralta!</h2>
+            <p>Explore the breathtaking beauty and rich history of Gheralta through our guided tours.</p>
+            <a href="#attractions" class="btn">Discover Attractions</a>
+        </div>
+    </section>
+
+    <section id="attractions" class="attractions">
+        <div class="container">
+            <h2>Our Top Attractions</h2>
+            <div class="gallery">
+                <div class="item">
+                    <img src="path-to-your-image1.jpg" alt="Attraction 1">
+                    <h3>Attraction 1</h3>
+                    <p>Brief description of the first attraction.</p>
+                </div>
+                <div class="item">
+                    <img src="path-to-your-image2.jpg" alt="Attraction 2">
+                    <h3>Attraction 2</h3>
+                    <p>Brief description of the second attraction.</p>
+                </div>
+                <div class="item">
+                    <img src="path-to-your-image3.jpg" alt="Attraction 3">
+                    <h3>Attraction 3</h3>
+                    <p>Brief description of the third attraction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are passionate about showing the beauty and culture of Gheralta. Our experienced guides will take you through ancient churches, stunning landscapes, and hidden gems.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Ready to book your tour or have any questions? Get in touch with us today!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Gheralta Attractions Tour and Travel | All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
